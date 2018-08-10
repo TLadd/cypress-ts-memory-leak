@@ -1,0 +1,17 @@
+{
+  "name": "cypress-ts-memory-leak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thomas.rye.ladd@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^2.0.1",
+    "cypress": "^3.0.3",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "copyTest1": "sh replicateTest1.sh",
+    "test": "cypress run --config video=false"
+  }
+}
